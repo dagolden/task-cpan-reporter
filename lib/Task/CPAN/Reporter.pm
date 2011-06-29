@@ -1,13 +1,24 @@
 use strict;
 use warnings;
 package Task::CPAN::Reporter;
-# ABSTRACT: No abstract given for Task::CPAN::Reporter
+# ABSTRACT: Install CPAN::Reporter and related dependencies
+
+=head1 DESCRIPTION
+
+In order to support CPAN Testers who desire a very minimal test
+setup, CPAN::Reporter does not include several dependencies that
+a casual CPAN Tester requires.  This Task distribution is provided
+to help users install common dependencies together.
 
 =pod
 
-=pkgroup Modules That are Useful
+=pkgroup Modules Included
 
-=pkg Package::Name  0  need at least version 0
+=pkg CPAN::Reporter  1.1902
+
+=pkg Test::Reporter::Transport::Metabase 1.999008
+
+=pkg LWP::Protocol::https 6.02
 
 =head1 USAGE
 
