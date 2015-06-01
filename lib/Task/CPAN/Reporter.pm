@@ -18,7 +18,9 @@ to help users install common dependencies together.
 
 =pkg Test::Reporter::Transport::Metabase 1.999008
 
-=pkg LWP::Protocol::https 6.02
+=pkg IO::Socket::SSL 1.42
+
+=pkg Net::SSLeay 1.49
 
 =head1 USAGE
 
