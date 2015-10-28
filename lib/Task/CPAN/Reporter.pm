@@ -20,6 +20,8 @@ to help users install common dependencies together.
 
 =pkg LWP::Protocol::https 6.02
 
+=pkg CPAN::Meta::YAML 0.016
+
 =head1 USAGE
 
 This module has no direct functionality.  It is merely a placeholder
