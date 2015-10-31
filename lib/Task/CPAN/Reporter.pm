@@ -3,6 +3,8 @@ use warnings;
 package Task::CPAN::Reporter;
 # ABSTRACT: Install CPAN::Reporter and related dependencies
 
+our $VERSION = '0.002';
+
 =head1 DESCRIPTION
 
 In order to support CPAN Testers who desire a very minimal test
