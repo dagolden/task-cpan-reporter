@@ -2,7 +2,9 @@ Revision history for Task-CPAN-Reporter
 
 {{$NEXT}}
 
+    - Added CPAN::Meta::YAML
+
 0.001     2011-06-29 15:22:17 America/New_York
 
-  - First release
+    - First release
 
