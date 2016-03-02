@@ -3,7 +3,7 @@ use warnings;
 package Task::CPAN::Reporter;
 # ABSTRACT: Install CPAN::Reporter and related dependencies
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 =head1 DESCRIPTION
 
