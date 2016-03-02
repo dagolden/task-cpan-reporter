@@ -24,6 +24,8 @@ to help users install common dependencies together.
 
 =pkg Net::SSLeay 1.49
 
+=pkg Mozilla::CA
+
 =pkg CPAN::Meta::YAML 0.016
 
 =head1 USAGE
